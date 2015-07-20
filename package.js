@@ -1,9 +1,11 @@
 Package.describe({
     name: 'abhiaiyer:meteor-twilio',
-    version: '0.0.4',
+    version: '0.0.5',
     // Brief, one-line summary of the package.
     summary: 'Twilio Bindings for Meteor',
-    documentation: 'README.md'
+    documentation: 'README.md',
+    git: 'https://github.com/abhiaiyer91/Meteor-Twilio.git'
+
 });
 
 Npm.depends({"twilio": "2.1.0"});
